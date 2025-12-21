@@ -90,13 +90,6 @@ To deploy:
 
 ---
 
-## 📄 License
-
-This project is shared for **personal and educational purposes**.  
-You are welcome to explore and adapt the code for your own learning.
-
----
-
 ## Credits
 
 Layout inspiration derived from a public frontend tutorial. All functionality, data flow, and integrations are independently implemented.
