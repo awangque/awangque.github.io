@@ -1,59 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="loginStyle.css">
-  
-  <title>Login Test Selection</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nice Meeting You</title>    
+    <!-- Boxicons link -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">    
 </head>
 <body>
-   <div class="wrapper">
-    <div class="form-wrapper sign-in">
-      <form action="">
-        <h2>Welcome Back</h2>
-        <div class="input-group">
-          <input type="text" required>
-          <label for="">Username</label>
-        </div> 
-        <div class="input-group">
-          <input type="text" required>
-          <label for="">Password</label>
-        </div> 
-        <button type="submit">Log In</button>
-        <div class="signUp-link">
-          <p>Don`t have an account ? <a href="#" class="signUpBtn-link">Sign Up</a></p>
-        </div>
-      </form>
-    </div>
+    <!-- navbar -->
+     <nav class="nav">
+        <ul class="nav-list">
+            <li class="active">
+                <i class='bx bx-home-alt' ></i>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <i class='bx bx-user' ></i>
+                <span class="tooltip">About</span>
+            </li>
+            <li>
+                <i class='bx bx-detail' ></i>
+                <span class="tooltip">Resume</span>
+            </li>
+            <li>
+                <i class='bx bx-briefcase' ></i>
+                <span class="tooltip">Portfolio</span>
+            </li>
+            <li>
+                <i class='bx bx-envelope' ></i>
+                <span class="tooltip">Contact</span>
+            </li>
+        </ul>
+     </nav>
 
-    <div class="form-wrapper sign-up">
-      <form action="">
-        <h2>Sign Up</h2>
-        <div class="input-group">
-          <input type="text" required>
-          <label for="">Username</label>
-        </div> 
-        <div class="input-group">
-          <input type="email" required>
-          <label for="">Email</label>
-        </div> 
-        <div class="input-group">
-          <input type="password" required>
-          <label for="">Password</label>
-        </div>
-        <div class="terms">
-          <label><input type="checkbox"> I agree to the terms & conditions</label>
-        </div> 
-        <button type="submit">Register</button>
-        <div class="signUp-link">
-          <p>Already have an account ? <a href="#" class="signInBtn-link">Sign In</a></p>
-        </div>
-      </form>
-    </div>
-   </div>
+    <!-- home section -->
+     <div class="container">
+        <div class="box">
+            <section class="section home active">
+                <div class="home-info">
+                    <h3>Hello I'm</h3>
+                    <h1>Awang Que</h1>
+                    <h3><span class="identity"></span></h3>
+                    <p class="desc">Blending healthcare excellence, property expertise, and technical innovation to provide smart, reliable solutions across multiple industries.</p>
+                    <div class="btn-sci">                        
+                        <a href="#" class="btn" id="goAbout">More on About Me</a>
+                        <div class="sci">
+                            <a href="#">
+                                <i class='bx bxl-github' ></i>
+                                <span class="tooltip">Github</span>
+                            </a>
+                            <a href="#">
+                                <i class='bx bxl-facebook-circle' ></i>
+                                <span class="tooltip">Facebook</span>
+                            </a>
+                            <a href="#">
+                                <i class='bx bxl-whatsapp-square'></i>
+                                <span class="tooltip">Whatsapp</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-   <script src="loginScript.js"></script>
-  
+                <div class="img-wrapper">
+                    <div class="img-box home-img">
+                        <img src="img11.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- about section -->
+             <section class="section about">
+                <div class="img-wrapper">
+                    <div class="img-box about-img">
+                        <img src="img11.png" alt="">
+                    </div>
+                </div>
+                <div class="about-info scroll-container">
+                    <h2 class="title">About Me</h2>
+                    <h3>Clinical Optometrist</h3>
+                    <p class="desc">
+                        Hi, I’m Awang Que, a Clinical Optometrist with over 12 years of experience, specializing in pediatric vision care and vision therapy. I’m passionate about helping children and families achieve clear, healthy vision, and I believe strong visual development plays an important role in a child’s learning, confidence, and quality of life.
+                        <br>In addition to optometry, I’m also a Registered Estate Consultant, where I help clients navigate real estate decisions with clear, practical guidance focused on long-term value and security.
+                        <br>Outside of my professional work, I enjoy staying active through badminton and exploring programming as a self-taught hobby. I’m always keen to learn, grow, and apply problem-solving skills across different fields.
+                    </p>                    
+                    <a href="#" class="btn" id="goContact">Contact Me</a>
+                </div>   
+            </section>
+
+            <!-- resume (experience, skills, education) section -->
+            <section class="section resume">
+                <h2 class="title">Resume</h2>
+                <div class="tab-box">
+                    <div class="tab-list resume-list active">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="tab-list resume-list">
+                        <h3>Skills</h3>
+                    </div>
+                    <div class="tab-list resume-list">
+                        <h3>Education</h3>
+                    </div>
+                </div>
+                <div class="tab-wrapper">
+                    <div class="tab-grid resume-box experience active">
+                        <div class="tab-item resume-item">
+                            <h4>2014 - Present</h4>
+                            <h4>Founder & CEO</h4>
+                            <h4>Viewpoint Optometry</h4>
+                            <p>Serving community with my specialty has always been my wish.</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2023 - Present</h4>
+                            <h4>Founder & CEO</h4>
+                            <h4>Vyralstores</h4>
+                            <p>Technology never leave my childhood interest, finally I build an automated system that makes life easier.</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2023 - Present</h4>
+                            <h4>Real Estate Negotiator</h4>
+                            <h4>Icon Capital Property</h4>
+                            <p>Help others to buy property worth of millions is the best memory of life. Sincere care builds lasting trust.</p>
+                        </div>                        
+                        <div class="tab-item resume-item">
+                            <h4>2021 - 2022</h4>
+                            <h4>Clinical Optometrist</h4>
+                            <h4>Zysfa Eyewear</h4>
+                            <p>Giving a hand does not hurt, everyone wanted the taste of victory.</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2018 - 2019</h4>
+                            <h4>Real Estate Negotiator</h4>
+                            <h4>IWP Properties</h4>
+                            <p>Receive exciting news from a family member who bought his 1st property, but I end up becoming an estate realtor.</p>
+                        </div>                        
+                        <div class="tab-item resume-item">
+                            <h4>2012 - 2015</h4>
+                            <h4>Clinical Optometrist</h4>
+                            <h4>Optimal</h4>
+                            <p>Moving forward with other company to gain more experience and challenges.</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2010 - 2011</h4>
+                            <h4>Clinical Optometrist</h4>
+                            <h4>Menara Optometry</h4>
+                            <p>My first retail centre to provide primary eye care aside from clinical sector in the hospital.</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2006 - 2009</h4>
+                            <h4>Optometrist Intern</h4>
+                            <h4>Hosp. Sg Buloh, KL, THONEH (Malaysia)<br>Hosp. Sankara Nethralaya (India)</h4>
+                            <p>Receive clinical experience with the real world challenges and learning with hands on serving community for a greater good.</p>
+                        </div>
+                    </div>
+                    <div class="tab-grid resume-box skills">
+                        <div class="tab-item resume-item">
+                            <i class='bx bxl-html5' ></i>
+                            <p>HTML5</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bx bxl-css3' ></i>
+                            <p>CSS3</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bx bxl-javascript' ></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bx bxl-flutter' ></i>
+                            <p>Flutter</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bx bxl-bootstrap' ></i>
+                            <p>Bootstrap</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bx bx-plus-medical' ></i>
+                            <p>Optometry</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bx bx-building-house' ></i>
+                            <p>Real Estate</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class='bx bx-run'></i>
+                            <p>Badminton</p>
+                        </div>
+                    </div>
+                    <div class="tab-grid resume-box education">
+                        <div class="tab-item resume-item">
+                            <h4>2024</h4>
+                            <h4>Property Auction</h4>
+                            <h4>Online Course</h4>
+                            <p>New development or subsale are not the only options, those auction were actually the cheapest approach to start.</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2023</h4>
+                            <h4>E-Commerce EBAY</h4>
+                            <h4>Online Course</h4>
+                            <p>Local currency is low, why not expand to higher foreign currency? At least that is what I tought.</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2020</h4>
+                            <h4>E-Commerce Shopify</h4>
+                            <h4>Online Course</h4>
+                            <p>Global pandemic shuts everybody out, so many are looking for the alternatives to cater the cost of living.</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2019</h4>
+                            <h4>Real Estate Negotiator</h4>
+                            <h4>MIEA</h4>
+                            <p>When crisis occurs, I took another step ahead, figuring out how really these assets can become your financial freedom or simply just a nightmare.</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2019</h4>
+                            <h4>Flutter Programming</h4>
+                            <h4>Online Course</h4>
+                            <p>Mobile phones is a fast moving technology, I should have a look on it so I learn another computer language.</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2018</h4>
+                            <h4>Javascript Programming</h4>
+                            <h4>Online Course</h4>
+                            <p>I never leave my hobby since childhood, so I put myself into it, no recognition needed.</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4>2005</h4>
+                            <h4>Bsc Of Optometry (Hons)</h4>
+                            <h4>IUCTT University</h4>
+                            <p>Back then, information technology seems risky, so I went to health care sector that sounds safer?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- portfolio (work, service) section -->
+            <section class="section portfolio">
+                <h2 class="title">Portfolio</h2>
+                <div class="tab-box">
+                    <div class="tab-list portfolio-list active">
+                        <h3>My Work</h3>
+                    </div>
+                    <div class="tab-list portfolio-list">
+                        <h3>My Services</h3>
+                    </div>
+                </div>
+                <div class="tab-wrapper">
+                    <div class="tab-grid portfolio-box work active">
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="44vp.png" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h4>Private Practice</h4>
+                                <p>Opening my own practice marked a major step forward. Established in 2014, it has remained operational for over 12 years and continues to serve patients today.</p>
+                                <div class="tech-used">
+                                    <p>License, Renovation, Product, Agreement</p>
+                                </div>
+                                <div class="portfolio-icon work-icon">
+                                    <a href="#">
+                                        <i class='bx bx-arrow-back' ></i>
+                                        <span class="tooltip">Preview</span>
+                                    </a>
+                                    <a href="https://maps.app.goo.gl/989JNXB5FRNec1k89">
+                                        <i class='bx bx-map' ></i>
+                                        <span class="tooltip">Google Map</span>
+                                    </a>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="11VPsite.png" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h4>Frontend Project</h4>
+                                <p>An official company website, design for awareness with best services possible provided.</p>
+                                <div class="tech-used">
+                                    <p>HTML5, CSS3, JavaScript</p>
+                                </div>
+                                <div class="portfolio-icon work-icon">
+                                    <a href="https://viewpoint-optometry.com/index.html">
+                                        <i class='bx bx-arrow-back' ></i>
+                                        <span class="tooltip">Preview</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class='bx bxl-github' ></i>
+                                        <span class="tooltip">Github Repository</span>
+                                    </a>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="55p.png" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h4>Frontend Project</h4>
+                                <p>This is my custom personal portfolio, where creativity meets craftsmanship. This is a space to showcase my skills, projects, and passion for design and development. Dive in to see how I bring ideas to life with a unique touch.</p>
+                                <div class="tech-used">
+                                    <p>HTML5, CSS3, JavaScript</p>
+                                </div>
+                                <div class="portfolio-icon work-icon">
+                                    <a href="#">
+                                        <i class='bx bx-arrow-back' ></i>
+                                        <span class="tooltip">Preview</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class='bx bxl-github' ></i>
+                                        <span class="tooltip">Github Repository</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>work Test</p>
+                        </div>                        
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="22tap.png" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h4>Frontend Project</h4>
+                                <p>A personal suppliment product website.</p>
+                                <div class="tech-used">
+                                    <p>HTML5, CSS3, JavaScript</p>
+                                </div>
+                                <div class="portfolio-icon work-icon">
+                                    <a href="https://tap.vyralstore.com/admin/">
+                                        <i class='bx bx-arrow-back' ></i>
+                                        <span class="tooltip">Preview</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class='bx bxl-github' ></i>
+                                        <span class="tooltip">Github Repository</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>work Test</p>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="33recc.png" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h4>Backend Project</h4>
+                                <p>A system designed to securely store customer records online, ensuring data is safe and easily accessible—no more worrying about losing important information. For privacy reasons, no preview is available, as the database contains real customer data.</p>
+                                <div class="tech-used">
+                                    <p>HTML5, CSS3, JavaScript</p>
+                                </div>
+                                <div class="portfolio-icon work-icon">
+                                    <a href="#">
+                                        <i class='bx bx-arrow-back' ></i>
+                                        <span class="tooltip">Preview</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class='bx bxl-github' ></i>
+                                        <span class="tooltip">Github Repository</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <p>work Test</p>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="5ac.png" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h4>Full-Stack Project (In-Progress)</h4>
+                                <p>An all-in-one company management system that empowers entrepreneurs to manage operations efficiently while significantly reducing HR and accounting costs.</p>
+                                <div class="tech-used">
+                                    <p>HTML5, CSS3, Javascript</p>
+                                </div>
+                                <div class="portfolio-icon work-icon">
+                                    <a href="#">
+                                        <i class='bx bx-arrow-back' ></i>
+                                        <span class="tooltip">Preview</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class='bx bxl-github' ></i>
+                                        <span class="tooltip">Github Repository</span>
+                                    </a>
+                                </div>
+                            </div>                            
+                        </div>                 
+                    </div> 
+                    <div class="tab-grid portfolio-box services">
+                        <div class="tab-item portfolio-item">
+                            <div class="portfolio-icon service-icon">
+                                <i class='bx bx-happy-heart-eyes icon'></i>
+                                <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                            </div>
+                            <h4>Visual Therapy</h4>
+                            <p>Eye muscle exercise to improve visual impairment especially amblyopic eye among children less than 9 years old</p>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class="portfolio-icon service-icon">
+                                <i class='bx bx-show-alt icon'></i>
+                                <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                            </div>
+                            <h4>Eye Health Screening</h4>
+                            <p>Not everyone are lucky with a good sight, early detection can save your eye from the risk of blindness.</p>
+                        </div>        
+                        <div class="tab-item portfolio-item">
+                            <div class="portfolio-icon service-icon">
+                                <i class='bx bx-palette icon' ></i>
+                                <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                            </div>
+                            <h4>Color Blind</h4>
+                            <p>Get yourself a custom glasses to help you see better with colors</p>
+                        </div>   
+                        <div class="tab-item portfolio-item">
+                            <div class="portfolio-icon service-icon">
+                                <i class='bx bx-bookmark-alt-plus icon'></i>
+                                <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                            </div>
+                            <h4>Certified Approval</h4>
+                            <p>Your profession require a sight authorized verification ? Come visit me at my practice</p>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class="portfolio-icon service-icon">
+                                <i class='bx bx-building-house icon'></i>
+                                <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                            </div>
+                            <h4>Real Estate Negotiator</h4>
+                            <p>Wanted to buy or sell your property asset ? Reach me out</p>
+                        </div>              
+                    </div>    
+                </div>
+            </section>   
+            <!-- contact section -->            
+            <div class="section contact active">
+                <h2 class="title">Contact Me</h2>
+                <div class="contact-wrapper">
+                    <form id="contactForm" action="https://docs.google.com/forms/d/e/1FAIpQLSeeraT_uy3Ff4ecC4_ovxpeSQ8db8nCHWhXPdm2wESPEiNt5A/formResponse" class="contact-form">
+                        <h3>Let's Work Together!</h3>
+                        <div class="field-box">
+                            <input type="text" placeholder="Full Name" name="entry.447056159" required>
+                            <input type="email" placeholder="Email Address" name="entry.977284468" required>
+                            <input type="text" placeholder="Phone Number" name="entry.1070728165" required>
+                            <input type="text" placeholder="Subject For Message" name="entry.1750036206" required>
+                            <textarea name="entry.911236548" id="" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="contact-btn">
+                            <button type="submit" class="btn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>           
+        </div>
+     </div>    
+    <!-- Javascript -->    
+    <script src="script.js"></script>    
+    <script src="script2.js"></script>
+    <!-- Typed.js FIRST -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script3.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>    
 </body>
 </html>
