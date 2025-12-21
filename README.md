@@ -99,17 +99,24 @@ You are welcome to explore and adapt the code for your own learning.
 
 ## Credits
 
-Layout concepts inspired by a frontend tutorial.
-
-The current implementation significantly extends beyond the tutorial by introducing:
-- Multi-page navigation
-- A fully functional contact form with real data submission
-- External data handling and integration
-- Real-world locations and verified references
-- Custom logic, structure, and content
-
-All application logic, integrations, and final behavior are independently implemented.
-
+Layout inspiration derived from a public frontend tutorial. All functionality, data flow, and integrations are independently implemented.
 **Built as a hands-on, framework-free web experiment.**
+
+## License
+
+MIT License
+
+Copyright (c) 2025 Awg Que
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
 
