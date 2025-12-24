@@ -1,4 +1,4 @@
-![Alt text](PortfolioImageFBsize.jpg)
+![Alt text](assets/PortfolioImageFBsize.jpg)
 # Personal Portfolio Website
 
 This repository hosts my **personal portfolio website**, designed as an interactive, cube-style interface where each face represents a different section of the site.
