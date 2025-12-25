@@ -93,8 +93,7 @@ To deploy:
 
 ## Credits
 
-Layout inspiration derived from a public frontend tutorial. All functionality, data flow, and integrations are independently implemented.
-**Built as a hands-on, framework-free web experiment.**
+Layout inspiration derived from a public frontend tutorial. All functionality, data flow, and external integrations were independently implemented as part of a hands-on, framework-free web experiment.
 
 ## License
 
