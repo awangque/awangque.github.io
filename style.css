@@ -217,6 +217,12 @@ a:hover .tooltip,
     margin: 1rem 0 2rem;
 }
 
+p.indent {
+  text-indent: 1.5em;     /* smaller, balanced indent */
+  line-height: 1.6;       /* improves visual balance */
+  /*margin-bottom: 1rem;*/
+}
+
 .home-info .btn-sci {
     display: flex;
     align-items: center;
@@ -757,4 +763,5 @@ a:hover .tooltip,
     .tab-list h3 {
         font-size: 2.3rem;
     }
+
 }
