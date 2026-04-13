@@ -8,8 +8,8 @@
 ---
 
 ### Live Site : https://awangque.github.io/ 
-### Project Current Version 
-![stage](https://img.shields.io/badge/Stage-Stable-green) ![version](https://img.shields.io/badge/Version-1.0.0-blue)
+### Project Current Version : [The Changelog](CHANGELOG.md)
+![stage](https://img.shields.io/badge/Stage-Stable-green) ![version](https://img.shields.io/badge/Version-1.3.0-blue)
 
 ![Alt text](assets/Portfolio1.png)
 
