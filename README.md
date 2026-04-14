@@ -19,7 +19,7 @@
 
 ### Credits
 
-Layout inspiration derived from a public frontend tutorial. All functionality, data flow, and external integrations were independently implemented as part of a hands-on, framework-free web experiment.
+I drew layout inspiration from a frontend tutorial, but it didn't have any actual functionality. I handled the heavy lifting myself. This project was a deep dive into "vanilla" development, where I independently built out the entire backend logic and data flow to make the site actually work.
 
 ---
 ### License
