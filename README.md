@@ -4,7 +4,7 @@
 - Smooth navigation scrolling in each section without reloading.
 - Built with plain HTML, CSS, JS - no bootstrap/react/UI frameworks.
 - Uses AJAX with Google Forms so the page doesn't refresh when you hit submit.
-- All links, navigations and form submission, are totally working - not a plain demo.
+- All links, navigation, and form submissions are fully functional—this isn't just a plain demo, but a working application.
 
 ---
 
